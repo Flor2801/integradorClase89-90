@@ -1,0 +1,47 @@
+.estilo {
+  width: 300px;
+  height: 300px;
+  margin: 20px 20px 20px 20px;
+
+  .imagen-producto {
+    background-color: red;
+    height: 70%;
+    overflow: hidden;
+    img {
+        width: 100%;
+
+      }
+  }
+
+  .no-disponible {
+    background-color: grey;
+    height: 70%;
+    overflow: hidden;
+    img {
+        width: 100%;
+      }
+}
+
+
+  .descripcion-producto {
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+
+  }
+
+  h4 {
+    margin: 3px;
+  }
+
+  span {
+      color: red;
+  }
+
+}
+
+
+
+
